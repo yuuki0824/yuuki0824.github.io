@@ -1,8 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   padding-top: 70px;
+  width: 100%;
 }
-header {
-  
+
+.about_me p {
+  font-size: 18px;
+}
+
+.container-fluid{
+  background-color: #D7EEFF;
+}
+
+.navbar-brand {
+  background-color: #dbdbdb;
+  border-color: #3e6952;
+}
+
+.navbar-brand img {
+  height: 100%;
+}
+
+.navbar-nav li {
+  margin: 0 5px;
+}
+
+.navbar-nav li a {
+  font-size: 18px;
+}
+
+.container {
+}
+
+#About {
+  background: linear-gradient(-135deg, #CEF6CE, #F3E2A9);
+  margin: -20px 0;
+  padding: 20px 0;
+}
+
+#About section.about{
+  font-size: 18px;
+}
+
+#Products {
+  background: linear-gradient(90deg,#A9F5D0, #81F7BE);
+  margin: -20px 0;
+  padding: 20px 0;
+}
+
+#Blog {
+  background: linear-gradient(180deg, #fff, #000000);
+  margin: -20px 0;
+  padding: 20px 0;
+}
+#Blog p {
+  color: white;
+}
+
+#Contact {
+  background: linear-gradient(90deg, #CEECF5, #A9E2F3);
+  margin: -20px 0;
+  padding: 20px 0;
 }
 
 #logo {
@@ -19,6 +81,27 @@ header {
   letter-spacing: 0.15em;
   color: #A4A4A4;
   text-shadow: 1px 1px 0 #000;
+}
+
+.panel-primary {
+  width: 20%;
+}
+
+.panel-primary h2 {
+  font-size: 30px;
+  margin: -5px;
+}
+
+h2.product-title {
+  padding:;
+  text-align: center;
+  color: #FF8000;
+  margin-bottom: 20px;
+}
+
+
+.well img {
+  width: 100%;
 }
 
 footer {
